@@ -1,0 +1,13 @@
+Source: ros-rolling-linear-feedback-controller
+Section: misc
+Priority: optional
+Maintainer: Guilhem Saurel <guilhem.saurel@laas.fr>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libfmt-dev, ros-rolling-ament-cmake-auto, ros-rolling-ament-cmake-python, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-control-toolbox, ros-rolling-controller-interface, ros-rolling-generate-parameter-library, ros-rolling-gmock-vendor <!nocheck>, ros-rolling-gtest-vendor <!nocheck>, ros-rolling-hardware-interface, ros-rolling-jrl-cmakemodules, ros-rolling-linear-feedback-controller-msgs, ros-rolling-message-filters, ros-rolling-nav-msgs, ros-rolling-pal-statistics, ros-rolling-parameter-traits, ros-rolling-pinocchio, ros-rolling-pluginlib, ros-rolling-rcl, ros-rolling-rclcpp, ros-rolling-rclcpp-lifecycle, ros-rolling-realtime-tools, ros-rolling-rosidl-dynamic-typesupport, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Homepage: https://github.com/loco-3d/linear-feedback-controller
+Standards-Version: 3.9.2
+
+Package: ros-rolling-linear-feedback-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-rolling-control-toolbox, ros-rolling-controller-interface, ros-rolling-generate-parameter-library, ros-rolling-hardware-interface, ros-rolling-linear-feedback-controller-msgs, ros-rolling-message-filters, ros-rolling-nav-msgs, ros-rolling-pal-statistics, ros-rolling-pinocchio, ros-rolling-pluginlib, ros-rolling-rcl, ros-rolling-rclcpp, ros-rolling-rclcpp-lifecycle, ros-rolling-realtime-tools, ros-rolling-rosidl-dynamic-typesupport, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Description: roscontrol controller package conputing a linear feedback.
+ The user needs to provide a model of the robot and a list of controlled joint and the controller computes a linear feedback on the user defined state.
