@@ -95,16 +95,16 @@ function(sec_generate_parameter_library LIB_NAME TARGET_NAME YAML_FILE)
             $<INSTALL_INTERFACE:include>
     )
     set_target_properties(${TARGET_NAME} PROPERTIES LINKER_LANGUAGE CXX)
+    find_package(tl-expected REQUIRED)
     target_link_libraries(
         ${TARGET_NAME}
         INTERFACE
             fmt::fmt
-            parameter_traits::parameter_traits
             rclcpp::rclcpp
             rclcpp_lifecycle::rclcpp_lifecycle
             rsl::rsl
             tcb_span::tcb_span
-            tl_expected::tl_expected
+            tl::expected
     )
     install(DIRECTORY ${LIB_INCLUDE_DIR} DESTINATION include)
 endfunction()
