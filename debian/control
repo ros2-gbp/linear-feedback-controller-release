@@ -1,0 +1,13 @@
+Source: ros-humble-linear-feedback-controller
+Section: misc
+Priority: optional
+Maintainer: "Guilhem Saurel" <guilhem.saurel@laas.fr>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libexpected-dev, libfmt-dev, ros-humble-ament-cmake-auto, ros-humble-ament-cmake-python, ros-humble-ament-lint-auto <!nocheck>, ros-humble-control-toolbox, ros-humble-controller-interface, ros-humble-generate-parameter-library, ros-humble-gmock-vendor <!nocheck>, ros-humble-gtest-vendor <!nocheck>, ros-humble-hardware-interface, ros-humble-jrl-cmakemodules, ros-humble-linear-feedback-controller-msgs, ros-humble-message-filters, ros-humble-nav-msgs, ros-humble-pal-statistics, ros-humble-pinocchio, ros-humble-pluginlib, ros-humble-rcl, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-realtime-tools, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: https://github.com/loco-3d/linear-feedback-controller
+Standards-Version: 3.9.2
+
+Package: ros-humble-linear-feedback-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-humble-control-toolbox, ros-humble-controller-interface, ros-humble-generate-parameter-library, ros-humble-hardware-interface, ros-humble-linear-feedback-controller-msgs, ros-humble-message-filters, ros-humble-nav-msgs, ros-humble-pal-statistics, ros-humble-pinocchio, ros-humble-pluginlib, ros-humble-rcl, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-realtime-tools, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: roscontrol controller package conputing a linear feedback.
+ The user needs to provide a model of the robot and a list of controlled joint and the controller computes a linear feedback on the user defined state.
