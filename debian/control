@@ -1,0 +1,13 @@
+Source: ros-kilted-linear-feedback-controller
+Section: misc
+Priority: optional
+Maintainer: "Guilhem Saurel" <guilhem.saurel@laas.fr>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libexpected-dev, libfmt-dev, ros-kilted-ament-cmake-auto, ros-kilted-ament-cmake-python, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-control-toolbox, ros-kilted-controller-interface, ros-kilted-generate-parameter-library, ros-kilted-gmock-vendor <!nocheck>, ros-kilted-gtest-vendor <!nocheck>, ros-kilted-hardware-interface, ros-kilted-jrl-cmakemodules, ros-kilted-linear-feedback-controller-msgs, ros-kilted-message-filters, ros-kilted-nav-msgs, ros-kilted-pal-statistics, ros-kilted-pinocchio, ros-kilted-pluginlib, ros-kilted-rcl, ros-kilted-rclcpp, ros-kilted-rclcpp-lifecycle, ros-kilted-realtime-tools, ros-kilted-rosidl-dynamic-typesupport, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Homepage: https://github.com/loco-3d/linear-feedback-controller
+Standards-Version: 3.9.2
+
+Package: ros-kilted-linear-feedback-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-kilted-control-toolbox, ros-kilted-controller-interface, ros-kilted-generate-parameter-library, ros-kilted-hardware-interface, ros-kilted-linear-feedback-controller-msgs, ros-kilted-message-filters, ros-kilted-nav-msgs, ros-kilted-pal-statistics, ros-kilted-pinocchio, ros-kilted-pluginlib, ros-kilted-rcl, ros-kilted-rclcpp, ros-kilted-rclcpp-lifecycle, ros-kilted-realtime-tools, ros-kilted-rosidl-dynamic-typesupport, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Description: roscontrol controller package conputing a linear feedback.
+ The user needs to provide a model of the robot and a list of controlled joint and the controller computes a linear feedback on the user defined state.
