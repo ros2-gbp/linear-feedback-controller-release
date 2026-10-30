@@ -1,3 +1,26 @@
+## linear_feedback_controller (kilted) - 4.1.0-1
+
+The packages in the `linear_feedback_controller` repository were released into the `kilted` distro by running `/nix/store/y006lzx6pw7dbbh7vvzgbd8mxnfcxy2i-python3.14-bloom-0.14.4/bin/bloom-release -r kilted -y linear_feedback_controller` on `Fri, 30 Oct 2026 12:39:29 -0000`
+
+The `linear_feedback_controller` package was released.
+
+Version of package(s) in repository `linear_feedback_controller`:
+
+- upstream repository: https://github.com/loco-3d/linear-feedback-controller
+- release repository: https://github.com/ros2-gbp/linear-feedback-controller-release.git
+- rosdistro version: `4.0.1-1`
+- old version: `4.0.1-1`
+- new version: `4.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## linear_feedback_controller (jazzy) - 4.1.0-1
 
 The packages in the `linear_feedback_controller` repository were released into the `jazzy` distro by running `/nix/store/y006lzx6pw7dbbh7vvzgbd8mxnfcxy2i-python3.14-bloom-0.14.4/bin/bloom-release -r jazzy -y linear_feedback_controller` on `Fri, 30 Oct 2026 12:38:24 -0000`
