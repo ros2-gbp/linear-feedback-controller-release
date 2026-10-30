@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>linear_feedback_controller</name>
-  <version>4.0.1</version>
+  <version>4.1.0</version>
   <description>
     roscontrol controller package conputing a linear feedback. The user needs
     to provide a model of the robot and a list of controlled joint and the
@@ -31,6 +31,7 @@
   <depend>message_filters</depend>
   <depend>nav_msgs</depend>
   <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
   <depend>pluginlib</depend>
   <depend>realtime_tools</depend>
   <depend>pinocchio</depend>

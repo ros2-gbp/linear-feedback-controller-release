@@ -9,6 +9,26 @@ Releases are available on the [github repository](https://github.com/loco-3d/lin
 
 ## [Unreleased]
 
+## [4.1.0] - 2026-10-30
+
+- add optional MPC command-delay compensation
+- fix compatibility with ros2_control 6.12.0
+- CI: add lyrical in ROS & Nix
+- CI: drop kilted in Nix
+
+## [4.0.4] - 2026-07-28
+
+- add missing include for `std::cerr`
+
+## [4.0.3] - 2026-07-17
+
+- fix changelog
+
+## [4.0.2] - 2026-07-17
+
+- add release script
+- fix compatibility with ament_index 1.14.1
+
 ## [4.0.1] - 2026-06-02
 
 - fix 4.0.0 release (missing merge)
@@ -87,7 +107,8 @@ Implementation of linear-feedback-controller in ROS1 for Talos PAL-Robotics robo
 
 ## Git changelogs
 
-[Unreleased]: https://github.com/loco-3d/linear-feedback-controller/compare/v4.0.1...HEAD
+[Unreleased]: https://github.com/loco-3d/linear-feedback-controller/compare/v4.1.0...HEAD
+[4.1.0]: https://github.com/loco-3d/linear-feedback-controller/compare/v4.0.1...v4.1.0
 [4.0.1]: https://github.com/loco-3d/linear-feedback-controller/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/loco-3d/linear-feedback-controller/compare/v3.2.0...v4.0.0
 [3.2.0]: https://github.com/loco-3d/linear-feedback-controller/compare/v3.1.0...v3.2.0
